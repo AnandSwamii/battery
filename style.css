@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.battery{
+    height: 250px;
+    width: 500px;
+    background-color: green;
+    position: absolute;
+    left: 0;
+    justify-content: center;
+    margin: 90px;
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+    position: absolute;
+    top: 250px;
+    left: 590px;
+    
+}
+.charger
+{
+    background-color: black;
+width: 30px;
+height: 100%;
+transition: 5s;
+}
+.battery:hover .charger{
+width: 100%;
+
+    
+}
